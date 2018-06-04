@@ -27,6 +27,7 @@
     <clobbers target='BarcodeScanner'/>
   </js-module>
   <!-- ios -->
+  <!--
   <platform name='ios'>
     <config-file target='config.xml' parent='/*'>
       <feature name='BarcodeScanner'>
@@ -291,6 +292,7 @@
     <header-file src='src/ios/vendor/headers/ZXMultiFormatWriter.h' autogen='true'/>
     <source-file framework='true' src='src/ios/vendor/libPods-ZXingObjC.a' autogen='true'/>
   </platform>
+  -->
   <!-- android -->
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
